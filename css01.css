@@ -1,0 +1,24 @@
+.imgs{border: #b3d4fc 2px solid;float: left;margin:10px;}
+img{height: 200px;width: 200px;opacity: 0.5}
+.txts{text-align: center;font-size: 16px;margin-bottom: 9px;font-weight:600 }
+body{width: 60%;height: auto; margin: 5px auto;background-color: dimgrey;}
+a:hover{background-color: blueviolet;}
+img:hover{opacity: 1}
+h1{text-align: center;font-weight: 800;color: #ac08e7}
+.cxk{list-style-type: none;margin: 0;padding: 0;height: 700px;display: inline-block;position:absolute;left: 100px;top: 200px;}
+.vy:link,.vy:visited{text-decoration: none;display:inline-block;padding: 30px}
+.dlq{height: 200px;width: 200px;position: absolute;
+  animation: vy 5s infinite alternate;}
+
+@keyframes vy {
+  0%{left: 0px;top:00px;border: pink 2px solid;}
+  10%{left: 00px;top:50px;border: red 2px solid;}
+  20%{left: 00px;top:100px;border:blue 2px solid;}
+  30%{left: 00px;top:200px;border:aquamarine 2px solid;}
+  40%{left:00px;top:300px;border: #e4ff0c 2px solid;}
+  50%{left: 00px;top:400px;border: chartreuse 2px solid;}
+  60%{left: 00px;top:300px;border: #a5b2ff 2px solid;}
+  70%{left: 00px;top:200px;border: #ffdafe 2px solid;}
+  80%{left: 00px;top:100px;border: #ffae00 2px solid;}
+  90%{left: 00px;top:50px;border: red 2px solid;}
+  100%{left: 0px;top:0px;border: #00fff5 2px solid}}
