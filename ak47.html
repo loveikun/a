@@ -7,7 +7,7 @@
     var ak47 = Math.random();
     ak47 = Math.floor(ak47 * 6) + 1;//范围
     //document.write(ak47);
-    document.write("<img src=" + ak47 + ".png\"/>");//动态插入图片关联AK47
+    document.write("<img src=\""+ak47+".png\"/>");//动态插入图片关联AK47
 
     var nice = prompt("猜一猜骰子的点数");
     if (isNaN(nice)) {
