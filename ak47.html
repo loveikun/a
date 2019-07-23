@@ -7,15 +7,15 @@
     var ak47 = Math.random();
     ak47 = Math.floor(ak47 * 6) + 1;//范围
     //document.write(ak47);
-    document.write("<img src=\""+ak47+".png\"/>");//动态插入图片关联AK47
+    //document.write("<img src=\""+ak47+".png\"/>");//动态插入图片关联AK47
 
     var nice = prompt("猜一猜骰子的点数");
     if (isNaN(nice)) {
      alert("这不是数字")}//首先验证是否为数字
     else {
-      if ((nice == ak47)) document.write("答对了啊！！")
+      if ((nice == ak47)) document.write("答对了啊！！"+"<img src=\""+ak47+".png\"/>"+"<a href=\"https://loveikun.github.io/a/sss.html\">点击访问主站访问密码123456999</a>")
       else {
-        document.write("答错了！！！！")//判断对错
+        document.write("答错了！！！！"+"<img src=\""+ak47+".png\"/>")//判断对错
       }
     }
 
